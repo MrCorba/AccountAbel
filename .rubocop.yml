@@ -6,5 +6,11 @@ AllCops:
     - 'node_modules/**/*'
     - 'db/**/*'
 
+Layout/SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
 Rails:
   Enabled: true
+
+Style/Lambda:
+  Enabled: false
